@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    
+    
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.5.min.css" />
+    
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Ristorante La Vecchia Cantina</title>
+</head>
+
+<body>
+    
+	
+	<!-- PRIMA PAGINA - HOME -->
+	<div data-role="page" id="home" >
+		<header data-role="header" data-theme="b">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#piatti" data-icon="heart">Specialità</a></li>
+						<li><a href="#contatti" data-icon="mail">Contatti</a></li>
+					</ul>
+				</div>
+		</header>
+		<div role="main" class="ui-content">
+			<h2>Ristorante La Vecchia Cantina</h2>
+			<p>Benvenuto nella app ufficiale del Ristolante "La Vecchia Cantina"</p>
+			<img src="img/banner.jpg" class="banner">
+			<h3 class="ui-bar ui-bar-a ui-icon-shop ui-btn-icon-left ui-corner-all ui-shadow">Le offerte del momento</h3>
+			<p class="ui-btn ui-btn-inline">Sabato e domenica pizza gratis</p>
+			<p class="ui-btn ui-btn-inline">Giovedì birra free</p>
+		</div>
+		<footer data-role="footer" data-position="fixed" data-theme="b">
+			<h1>&copy; 2020 - Ristorante La Vecchia Cantina</h1>
+		</footer>
+	</div>
+	
+		<!-- SECONDA PAGINA - SPECIALITA' -->
+	<div data-role="page" id="piatti" >
+		<header data-role="header" data-theme="b">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#piatti" data-icon="heart">Specialità</a></li>
+						<li><a href="#contatti" data-icon="mail">Contatti</a></li>
+					</ul>
+				</div>
+		</header>
+		<div class="ui-content">
+			<img src="img/banner.jpg" class="banner">
+			
+			<!-- LISTVIEW SET COLLASSABILE-->
+			<div data-role="collapsible-set">
+				<div data-role="collapsible">
+						<h3>Primi Piatti</h3>
+						<ul data-role="listview">
+							<li>Risotto all'astice</li>
+							<li>Spagnetti all'amatriciana</li>
+							<li>Ribollito</li>
+						</ul>
+				</div>
+			</div>
+			
+			<div data-role="collapsible-set">
+				<div data-role="collapsible">
+						<h3>Secondi Piatti</h3>
+						<ul data-role="listview">
+							<li>Agnello alla scottadito</li>
+							<li>Arrosto misto</li>
+							<li>Persico al cartoccio</li>
+						</ul>
+				</div>
+			</div>
+			
+			<div data-role="collapsible-set">
+				<div data-role="collapsible">
+						<h3>Dessert</h3>
+						<ul data-role="listview">
+							<li>Torta della nonna</li>
+							<li>Tiramisù</li>
+							<li>Gelato artigianale</li>
+						</ul>
+				</div>
+			</div>
+			
+			<div class="ui-grid-a">
+				<div class="ui-block-a">
+					<img src="img/icona.png">
+				</div>
+				<div class="ui-block-b">
+					<h3 class="ui-bar ui-bar-a">Giovedì gnocchi</h3>
+				</div>
+			</div>
+			
+		</div>
+		<footer data-role="footer" data-position="fixed" data-theme="b">
+			<h1>&copy; 2020 - Ristorante La Vecchia Cantina</h1>
+		</footer>
+	</div>
+	
+		<!-- TERZA PAGINA - CONTATTI -->
+	<div data-role="page" id="contatti" >
+		<header data-role="header" data-theme="b">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#piatti" data-icon="heart">Specialità</a></li>
+						<li><a href="#contatti" data-icon="mail">Contatti</a></li>
+					</ul>
+				</div>
+		</header>
+		<div class="ui-content">
+			<h2>Ristorante La Vecchia Cantina</h2>
+			<h3>Per i tuoi pranzi e le tue cene contattaci</h3>
+			<div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.770122036567!2d14.472088615418148!3d41.139543979287694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133a4fdfb8e4fd61%3A0xd44f827ca24301b7!2sVia%20Cocola%2C%2013%2C%2082030%20Dugenta%20BN!5e0!3m2!1sit!2sit!4v1584265914673!5m2!1sit!2sit" width="350" height="300" frameborder="0" style="border:0;" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			<h3>Indirizzo</h3>
+			<ul>
+				<li>Via Cocola, 13</li>
+				<li>Dugenta, 82030</li>
+				<li>Mail: carm.cuozzo@gmail.com</li>
+				<li>Tel: 3313194472</li>
+			</ul>
+		</div>
+		<footer data-role="footer" data-position="fixed" data-theme="b">
+			<h1>&copy; 2020 - Ristorante La Vecchia Cantina</h1>
+		</footer>
+	</div>
+	
+	
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>
